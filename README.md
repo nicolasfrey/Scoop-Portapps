@@ -6,7 +6,7 @@ A [Scoop](https://scoop.netlify.com/ "Scoop") bucket for the Portapps collection
 Installation
 --------
 
-`scoop bucket add Portapps https://github.com/Velgus/Scoop-Portapps.git`
+`scoop bucket add Portapps https://github.com/nicolasfrey/Scoop-Portapps.git`
 
 Manifests
 --------

@@ -1,0 +1,42 @@
+{
+    "version": "6.0.0-nightly.63-1",
+    "description": "Ferdium",
+    "homepage": "https://ferdium.org/",
+    "license": {
+        "identifier": "Apache License 2.0",
+        "url": "https://github.com/ferdium/ferdium-app/blob/develop/LICENSE.md"
+    },
+    "persist": [
+        "data",
+        "ferdium-portable.yml"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nicolasfrey/ferdium-portable/releases/download/6.0.0-nightly.63-1/ferdium-portable-win64-6.0.0-nightly.63-1.7z#/dl.7z",
+            "hash": "2a447e34aeca9d71b30f1f4d154ae38cab290ca58a079fa94fd1ab14a7ffde16"
+        }
+    },
+    "bin": "ferdium-portable.exe",
+    "shortcuts": [
+        [
+            "ferdium-portable.exe",
+            "ferdium"
+        ]
+    ],
+    "pre_install": "if(!(Test-Path \"$persist_dir\\ferdium-portable.yml\")) { New-Item \"$dir\\ferdium-portable.yml\" | Out-Null }",
+    "checkver": {
+        "url": "https://github.com/nicolasfrey/ferdium-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nicolasfrey/ferdium-portable/releases/download/6.0.0-nightly.63-1/ferdium-portable-win64-6.0.0-nightly.63-1.7z#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    },
+    "notes": "Generated with Portapps (https://portapps.io/)"
+}

@@ -13,7 +13,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/nicolasfrey/insomnia-portable/releases/download/2022.4.2-28/insomnia-portable-win64-2022.4.2-28.7z#/dl.7z",
-            "hash": "bf63de068d7161809a32f89bcc2caf094513b517a563eefb43f683af339db013"
+            "hash": "952fd3a5211282a64b35d1944b35fd2fa102c7d5890990436c458460aa9dac93"
         }
     },
     "bin": "insomnia-portable.exe",

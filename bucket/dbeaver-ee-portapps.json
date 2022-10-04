@@ -1,0 +1,42 @@
+{
+    "version": "22.2.0-1",
+    "description": "A free universal database tool and SQL client.",
+    "homepage": "https://dbeaver.io",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://github.com/dbeaver/dbeaver/blob/devel/LICENSE.md"
+    },
+    "persist": [
+        "data",
+        "dbeaver-portable.yml"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nicolasfrey/dbeaver-ee-portable/releases/download/22.2.0-1/dbeaver-portable-win64-22.2.0-1.7z#/dl.7z",
+            "hash": "86f809db4627cb4c387fdb290bf2d8fdc9a525b71abd9cadede7a08c9540c512"
+        }
+    },
+    "bin": "dbeaver-portable.exe",
+    "shortcuts": [
+        [
+            "dbeaver-portable.exe",
+            "DBeaver"
+        ]
+    ],
+    "pre_install": "if(!(Test-Path \"$persist_dir\\dbeaver-portable.yml\")) { New-Item \"$dir\\dbeaver-portable.yml\" | Out-Null }",
+    "checkver": {
+        "url": "https://github.com/nicolasfrey/dbeaver-ee-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nicolasfrey/dbeaver-portable/releases/download/$version/dbeaver-portable-win64-$version.7z#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/dbeaver-portable/)"
+}

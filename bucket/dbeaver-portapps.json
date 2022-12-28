@@ -1,5 +1,5 @@
 {
-    "version": "22.1.2-53",
+    "version": "22.3.0-54",
     "description": "A free universal database tool and SQL client.",
     "homepage": "https://dbeaver.io",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nicolasfrey/dbeaver-portable/releases/download/22.1.2-53/dbeaver-portable-win64-22.1.2-53.7z#/dl.7z",
-            "hash": "8283630f088d5dc0531276ac593f2d6ed314ee7c5f11a0bc7f29bacdccf1f55a"
+            "url": "https://github.com/nicolasfrey/dbeaver-portable/releases/download/22.3.0-54/dbeaver-portable-win64-22.3.0-54.7z#/dl.7z",
+            "hash": "df19987fee1e47cc65ff8bd005bae1b7c8862704752984074cbd653f34f04abf"
         }
     },
     "bin": "dbeaver-portable.exe",

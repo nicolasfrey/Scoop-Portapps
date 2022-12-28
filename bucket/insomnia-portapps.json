@@ -1,5 +1,5 @@
 {
-    "version": "2022.4.2-28",
+    "version": "2022.7.0-29",
     "description": "Debug APIs like a human, not a robot.",
     "homepage": "https://insomnia.rest",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nicolasfrey/insomnia-portable/releases/download/2022.4.2-28/insomnia-portable-win64-2022.4.2-28.7z#/dl.7z",
-            "hash": "952fd3a5211282a64b35d1944b35fd2fa102c7d5890990436c458460aa9dac93"
+            "url": "https://github.com/nicolasfrey/insomnia-portable/releases/download/2022.7.0-29/insomnia-portable-win64-2022.7.0-29.7z#/dl.7z",
+            "hash": "b37ea33ecd32b0b217971af5f77d08b72e627018044ef8589657e03b70ba3bc5"
         }
     },
     "bin": "insomnia-portable.exe",

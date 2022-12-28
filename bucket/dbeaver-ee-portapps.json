@@ -12,7 +12,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nicolasfrey/dbeaver-ee-portable/releases/download/22.3.0-2/dbeaver-portable-win64-22.3.0-2.7z#/dl.7z",
+            "url": "https://github.com/nicolasfrey/dbeaver-ee-portable/releases/download/22.3.0-2/dbeaver-ee-portable-win64-22.3.0-2.7z#/dl.7z",
             "hash": "12805eb75fbf4b1742eeb21625ce0667edcd64617ad377f9618994097168c628"
         }
     },
@@ -31,7 +31,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nicolasfrey/dbeaver-portable/releases/download/$version/dbeaver-portable-win64-$version.7z#/dl.7z"
+                "url": "https://github.com/nicolasfrey/dbeaver-portable/releases/download/$version/dbeaver-ee-portable-win64-$version.7z#/dl.7z"
             }
         },
         "hash": {

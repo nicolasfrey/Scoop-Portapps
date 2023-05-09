@@ -16,10 +16,10 @@
             "hash": "5f2d12a0fff90e60e604501344653afd33edb80b4f752f658f5ed8dab0a9ef39"
         }
     },
-    "bin": "dbeaver-portable.exe",
+    "bin": "dbeaver-ee-portable.exe",
     "shortcuts": [
         [
-            "dbeaver-portable.exe",
+            "dbeaver-ee-portable.exe",
             "DBeaver"
         ]
     ],

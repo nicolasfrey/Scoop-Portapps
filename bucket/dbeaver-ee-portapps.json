@@ -13,7 +13,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/nicolasfrey/dbeaver-ee-portable/releases/download/23.0.0-4/dbeaver-ee-portable-win64-23.0.0-4.7z#/dl.7z",
-            "hash": "12805eb75fbf4b1742eeb21625ce0667edcd64617ad377f9618994097168c628"
+            "hash": "632473db6ca5486c651eb0ab6b0cbf2ece90dbf6d85505550136e4e60a807298"
         }
     },
     "bin": "dbeaver-portable.exe",

@@ -1,5 +1,5 @@
 {
-    "version": "2023.5.8-34",
+    "version": "8.3.0-35",
     "description": "Debug APIs like a human, not a robot.",
     "homepage": "https://insomnia.rest",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nicolasfrey/insomnia-portable/releases/download/2023.5.8-34/insomnia-portable-win64-2023.5.8-34.7z#/dl.7z",
-            "hash": "60d2e2e0c29ba6aba3cfec35b43addabaf94f7e1159fbc7f607c34ac86835b76"
+            "url": "https://github.com/nicolasfrey/insomnia-portable/releases/download/8.3.0-35/insomnia-portable-win64-8.3.0-35.7z#/dl.7z",
+            "hash": "4e7d0c272642c328443eb1ebc78537806309d4b42dbe2129951f419d185d0eb4"
         }
     },
     "bin": "insomnia-portable.exe",

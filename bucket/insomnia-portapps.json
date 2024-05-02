@@ -12,7 +12,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nicolasfrey/insomnia-portable/releases/download/2024.8.6.0-37/insomnia-portable-win64-9.1.0-38.7z#/dl.7z",
+            "url": "https://github.com/nicolasfrey/insomnia-portable/releases/download/2024.9.1.0-38/insomnia-portable-win64-9.1.0-38.7z#/dl.7z",
             "hash": "782941719e31aa571213e2a5628da5ef0dfcdde21ba2a780278d8975f73dde12"
         }
     },

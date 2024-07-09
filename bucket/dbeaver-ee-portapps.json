@@ -1,5 +1,5 @@
 {
-    "version": "24.0.0-11",
+    "version": "24.1.0-12",
     "description": "A free universal database tool and SQL client.",
     "homepage": "https://dbeaver.io",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nicolasfrey/dbeaver-ee-portable/releases/download/24.0.0-11/dbeaver-ee-portable-win64-24.0.0-11.7z#/dl.7z",
-            "hash": "ed6160975a2cf2aebec88ac0351da078977ed6a64a0d90924fae6c2479d6936e"
+            "url": "https://github.com/nicolasfrey/dbeaver-ee-portable/releases/download/24.1.0-12/dbeaver-ee-portable-win64-24.1.0-12.7z#/dl.7z",
+            "hash": "1be0e1bfe4ff02b1a13316e49e60878ea61e0308f0ca01ff369bca589198cfd1"
         }
     },
     "bin": "dbeaver-ee-portable.exe",
